@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Polls{% endblock %}
+{% block content %}
+
+<h1>Entities at location of: {{info.info_text}} </h1>
+<h3>{{location_of.entity_text}}</h3>
+<h4><a href="{%url 'location'%}">Back to Locations</a></h4>
+{% endblock %}

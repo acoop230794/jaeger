@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Polls{% endblock %}
+{% block content %}
+<h1>Entities:</h1>
+<ul>
+    {% for entity in entitys %}
+    
+    <h2><a href="{% url 'detail' entity.id %}">{{entity.entity_text}}</a></h2>
+    <!-- <p>{{entity.entity_info}}</p> -->
+    {% empty %}
+    <li>No entitys</li>
+    {% endfor %}
+</ul>
+<h4><a href="{% url 'location' %}">Locations of Entities</a></h4>
+{% endblock %}
