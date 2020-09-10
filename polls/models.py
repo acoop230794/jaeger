@@ -6,6 +6,7 @@ from django.utils import timezone
 class Entity(models.Model):
     entity_info = models.TextField()
     entity_text = models.CharField(max_length=200)
+    entity_img = models.ImageField(upload_to='static/polls/', blank=True, null=True)
     pub_date = models.DateTimeField("date published")
 
     def __str__(self):

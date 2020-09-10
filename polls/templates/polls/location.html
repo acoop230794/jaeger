@@ -3,14 +3,15 @@
 {% block title %}Polls{% endblock %}
 {% block content %}
 
-<h1>Locations of Entities:</h1>
-<ul>
-    {% for info in infos %}
-    
-    <h1><a href="{% url 'locate' info.id %}" >{{info.info_text}}</a></h1>
-    {% empty %}
-    <li>No Locations</li>
-    {% endfor %}
-</ul>
-<h4><a href="{%url 'index'%}">Back to Entities</a></h4>
+<div class="location">
+    <h1>Locations of Entities</h1>
+    <ul>
+        {% for info in infos %}
+        
+        <h2><a href="{% url 'locate' info.id %}" >{{info.info_text}}</a></h2>
+        {% empty %}
+        <li>No Locations</li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}

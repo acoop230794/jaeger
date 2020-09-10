@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
@@ -26,6 +27,9 @@ SECRET_KEY = '9cu6hkxo1ef9v%8^pvbh3xunaa5ggf3b4ap!s1tff5mn%--vgt'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+MEDIA_ROOT =  os.path.join(BASE_DIR, 'media') 
+MEDIA_URL = '/polls/static/polls/'
 
 
 # Application definition

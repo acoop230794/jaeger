@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans|Nunito&display=swap');
+
+*{
+    background-color: darkslategray;
+    margin: 0;
+    font-family: 'Kumbh Sans Nunito', sans-serif;
+    font-weight: 300;
+}
+nav ul{
+    background-color: black;
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 2%;
+}
+nav li{
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+}
+nav a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: darkgray;
+    cursor: pointer;
+}
+.entity{
+    height: 80%;
+    width: 40%;
+    padding-bottom: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+}
+.entity ul{
+    background-color: darkolivegreen;
+    margin: 5%;
+}
+.entity h1, h2{
+    background-color: darkolivegreen;
+    color: white;
+    margin: 5%;
+}
+.entity h1{
+    text-decoration-line: underline;
+    text-align: center;
+}
+.entity a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+.entity a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.location{
+    height: 80%;
+    width: 40%;
+    padding-bottom: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+}
+.location ul{
+    background-color: darkolivegreen;
+    margin: 5%;
+}
+.location h1, h2{
+    background-color: darkolivegreen;
+    color: white;
+    margin: 5%;
+}
+.location h1{
+    text-decoration-line: underline;
+    text-align: center;
+}
+.location a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+.location a:hover{
+    color: black;
+    cursor: pointer;
+}
