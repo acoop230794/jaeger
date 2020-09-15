@@ -3,8 +3,10 @@
 {% block title %}Polls{% endblock %}
 {% block content %}
 
-<img src="{{entity.entity_img.url}}" />
-<h1>{{entity.entity_text}}</h1>
-<h3>{{entity.entity_info}}</h3>
+<div class="entityProfile">
+    <img src="{{entity.entity_img.url}}" />
+    <h1>{{entity.entity_text}}</h1>
+    <h3>{{entity.entity_info}}</h3>
+</div>
 
 {% endblock %}

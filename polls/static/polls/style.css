@@ -91,3 +91,51 @@ nav a:hover{
     color: black;
     cursor: pointer;
 }
+
+.entityProfile{
+    height: 80%;
+    width: 40%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+}
+.entityProfile img{
+    height: 40%;
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+    border-radius: 8px;
+}
+.entityProfile h1, h3{
+    background-color: darkolivegreen;
+    color: white;
+    margin: 5%;
+}
+.entityProfile h1{
+    text-decoration-line: underline;
+}
+
+.locationProfile{
+    height: 80%;
+    width: 40%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+}
+.locationProfile h1{
+    background-color: darkolivegreen;
+    color: white;
+    margin: 5%;
+}
+.locationProfile h1{
+    text-decoration-line: underline;
+}
+.locationProfile ul, li{
+    background-color: darkolivegreen;
+    color: white;
+}

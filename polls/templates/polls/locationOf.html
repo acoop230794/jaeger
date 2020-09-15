@@ -3,9 +3,11 @@
 {% block title %}Polls{% endblock %}
 {% block content %}
 
-<h1>Entities at location of: {{info.info_text}} </h1>
-<ul>
-    <li>{{location_of.entity_text}}</li>
-</ul>
+<div class="locationProfile">
+    <h1>Entities at location of: <br/> {{info.info_text}} </h1>
+    <ul>
+        <li>{{location_of.entity_text}}</li>
+    </ul>
+</div>
 
 {% endblock %}
